@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Monserrat';
+    src: url('Montserrat-VariableFont_wght.ttf');
+}
+
+h1 {
+	color: white;
+	font-family: Monserrat;
+	font-size: xx-large;
+	font-style: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-family: Monserrat;
+	font-size: x-large;
+	text-decoration: none;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: Monserrat;
+	font-size: medium;
+	text-decoration: none;
+	text-align: center;
+}
+
+h4 {
+	color: white;
+	font-family: Monserrat;
+	font-size: medium;
+	text-decoration: none;
+	text-align: center;
+}
+
+link {
+	text-decoration: none;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: White;
+	font-family: Montserrat;
+}
+
+.blue-text{
+	color: rgb(40, 45, 71);
+	font-family: Monserrat;
+	font-size: medium;
+	text-decoration: none;
+	text-align: center;
+}
+
+body {
+ background-image: url("photo-1486406146926-c627a92ad1ab.webp");
+ background-color: #cccccc;
+}
+
+.corpic { 
+	border-radius: 50%;
+	width: 140px;
+	height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.white-box {
+	background-color: white;
+	padding: 8px;
+	margin: 30px 400px;
+	margin-bottom: 15px;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+.text-form {
+	background-color: rgb(40, 45, 71);
+	padding: 40px;
+	margin: 30px;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#big-logo {
+	width: 300px;
+	height: 300px;
+}
+.facebook {
+	color: white;
+	size: 15px;
+}
+
+.linkedin {
+	color: white;
+}
+@media (max-width: 1220px) {
+	.white-box {
+		width: 1000;
+	}
+}
+
+@media (max-width: 920px) {
+	.white-box {
+		width: 800;
+	}
+}
+
+@media (max-width: 200px) {
+	.white-box {
+		width: 120;
+	}
+}
